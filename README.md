@@ -4,7 +4,7 @@ Copas code ke VPS:
 apt update && apt upgrade
 apt install python3 python3-pip git
 git clone https://github.com/kenDevXD/simplepanel1.git
-unzip simplepanel/xolpanel.zip
+unzip simplepanel1/xolpanel.zip
 nano xolpanel/var.txt # Isi bot token, ID telegram, & domain VPS
 pip3 install -r xolpanel/requirements.txt
 pip3 install pillow
